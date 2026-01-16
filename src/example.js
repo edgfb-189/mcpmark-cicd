@@ -1,8 +1,8 @@
-const unusedVariable = "This is unused";
-console.log("Double quotes are bad");
-let missingSemicolon = 123
+// Fixed linting errors
+console.log('Single quotes are good');
+let fixedSemicolon = 123;
 
-function badFunction() {
-  let x = 456
-  return x
+function goodFunction() {
+  let x = 456;
+  return x;
 }
